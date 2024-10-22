@@ -17,6 +17,7 @@
                     fontFamily: {
                         marcellus: ['Marcellus SC', 'serif'],
                         gilda: ['Gilda Display', 'serif'],
+                        poppins: ['Poppins', 'sans-serif'],
                     },
                 },
             },
@@ -36,12 +37,12 @@
             <!-- Navbar Container -->
             <div class="mx-auto relative px-5 max-w-screen-xl w-full flex items-center justify-end">
                 <!-- Navbar Logo -->
-                <div class="absolute w-full -top-5 flex items-center justify-center gap-7 lg:gap-12">
-                    <p class="text-[#FFEE9E] uppercase text-center">HOME</p>
-                    <p class="text-[#FFEE9E] uppercase text-center">View our menu</p>
-                    <img src='public/images/logo.png' alt="logo" class="">
-                    <p class="text-[#FFEE9E] uppercase text-center">book table</p>
-                    <p class="text-[#FFEE9E] uppercase text-center">Contact us</p>
+                <div class="absolute w-full -top-3 pl-10 lg:-top-8 flex items-center justify-center gap-4 lg:gap-12">
+                    <p class="text-xs lg:text-md text-[#FFEE9E] uppercase text-center">HOME</p>
+                    <p class="text-xs lg:text-md text-[#FFEE9E] uppercase text-center">View our menu</p>
+                    <img src='public/images/logo.png' alt="logo" class="hidden w-0 lg:flex lg:w-24">
+                    <p class="text-xs lg:text-md text-[#FFEE9E] uppercase text-center">book table</p>
+                    <p class="text-xs lg:text-md text-[#FFEE9E] uppercase text-center">Contact us</p>
                 </div>
             </div>
         </div>
@@ -66,7 +67,7 @@
             <h1
                 class="text-4xl lg:text-6xl font-medium font-gilda uppercase text-[#DCCF90] leading-[50px] lg:leading-[60px] tracking-[5px] text-center">
                 An authentic<br /> taste of Turkey in<br /> Heaton Moor </h1>
-            <p class="lg:max-w-[400px] px-4 text-center font-light leading-[160%] text-[#C1B6A6] md:px-0">
+            <p class="lg:max-w-[400px] px-4 text-center font-poppins font-light leading-[160%] text-[#8e8a74] md:px-0">
                 Visit our family-owned restaurant in the heart of Heaton Moor for unique, traditional-style
                 Turkish
                 cuisine with a twist.
@@ -76,7 +77,7 @@
         </div>
     </section>
     <section
-        class="relative flex h-full w-full items-center justify-center gap-5 bg-[#0f0f0f] overflow-hidden py-12 lg:py-24 ">
+        class="relative flex h-full w-full items-center justify-center gap-5 bg-[#0f0f0f] overflow-hidden pb-12 lg:pb-24 ">
         <img src=" public/images/authentic1.png" alt="hero">
         <img src="public/images/authentic3.png" alt="hero">
         <img src="public/images/authentic4.png" alt="hero">
@@ -88,10 +89,11 @@
             class="w-full text-4xl lg:text-6xl font-medium font-gilda uppercase text-[#DCCF90] leading-[50px] lg:leading-[60px] tracking-[5px] text-start lg:pl-14">
             An authentic<br /> taste of Turkey in<br /> Heaton Moor </h1>
         <div class="w-full flex flex-col lg:flex-row gap-3">
-            <div class="w-full lg:w-1/2 grid grid-cols-1 lg:grid-cols-2 gap-2 lg:px-14 lg:py-16">
+            <div class="w-full lg:w-1/2 grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-2 lg:px-14 lg:py-16">
                 <div class="flex flex-col gap-1 h-fit">
                     <h1 class="text-lg text-[#DCCF90] font-semibold">Authentic Flavors</h1>
-                    <p class="text-[#DCCF90] text-sm lg:w-[200px]">Traditional Moorish and Turkish recipes passed
+                    <p class="text-[#DCCF90] font-poppins text-sm lg:w-[200px]">Traditional Moorish and Turkish recipes
+                        passed
                         down
                         through
                         generations.
@@ -99,19 +101,22 @@
                 </div>
                 <div class="flex flex-col gap-1 h-fit">
                     <h1 class="text-lg text-[#DCCF90] font-semibold">Fresh Ingredients</h1>
-                    <p class="text-[#DCCF90] text-sm lg:w-[250px]">Locally sourced, fresh ingredients for vibrant
+                    <p class="text-[#DCCF90] font-poppins text-sm lg:w-[250px]">Locally sourced, fresh ingredients for
+                        vibrant
                         Mediterranean and Middle Eastern dishes.
                     </p>
                 </div>
                 <div class="flex flex-col gap-1 h-fit">
                     <h1 class="text-lg text-[#DCCF90] font-semibold">Welcoming Atmosphere</h1>
-                    <p class="text-[#DCCF90] text-sm lg:w-[250px]"> A cozy, inviting space that reflects Turkish
+                    <p class="text-[#DCCF90] font-poppins text-sm lg:w-[250px]"> A cozy, inviting space that reflects
+                        Turkish
                         hospitality.
                     </p>
                 </div>
                 <div class="flex flex-col gap-1 h-fit">
                     <h1 class="text-lg text-[#DCCF90] font-semibold">Cultural Fusion</h1>
-                    <p class="text-[#DCCF90] text-sm lg:w-[250px]">A unique blend of Moorish and Turkish influences in
+                    <p class="text-[#DCCF90] font-poppins text-sm lg:w-[250px]">A unique blend of Moorish and Turkish
+                        influences in
                         both cuisine and ambiance.
                     </p>
                 </div>
@@ -122,7 +127,7 @@
                 </a>
             </div>
             <div class="w-full lg:w-1/2 flex justify-center">
-                <img src=" public/images/authenticbig.png" alt="hero" class="h-[600px]">
+                <img src=" public/images/authenticbig.png" alt="hero" class="lg:h-[600px]">
             </div>
         </div>
     </section>
@@ -197,7 +202,7 @@
             <h1
                 class="text-4xl lg:text-5xl font-medium uppercase text-[#DCCF90] leading-[50px] tracking-[5px] text-start font-gilda">
                 Private<br />& Dining<br />Experience</h1>
-            <p class="lg:max-w-[500px] px-2 font-light leading-[160%] text-start text-[#C1B6A6] md:px-0">
+            <p class="lg:max-w-[500px] font-poppins font-light leading-[160%] text-start text-[#C1B6A6]">
                 At Bavette, we specialize in creating memorable dining experiences, whether you're seeking an intimate
                 gathering or a grand celebration. Our private and group dining options are designed to meet your unique
                 needs with personalized service, exceptional food, and a welcoming atmosphere.
@@ -399,7 +404,7 @@
 
 
 
-    <section class="relative flex h-full w-full items-center justify-center bg-[#31352b]">
+    <section class="relative flex h-full w-full items-center justify-center bg-[#31352b] overflow-hidden">
         <div class="flex h-full w-full flex-col items-center justify-center gap-6 py-8 md:py-24 gap-8">
             <div class="w-full flex flex-col gap-4 lg:flex-row">
                 <div
